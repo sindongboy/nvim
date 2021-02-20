@@ -1,4 +1,3 @@
-
 let g:startify_custom_header = [
         \ '        _   ___    ________          __   ',
         \ '       / | / / |  / / ____/___  ____/ /__ ',
@@ -6,7 +5,7 @@ let g:startify_custom_header = [
         \ '     / /|  / | |/ / /___/ /_/ / /_/ /  __/',
         \ '    /_/ |_/  |___/\____/\____/\__,_/\___/ ',
         \]
-                                      
+
 let g:startify_session_dir = '~/.config/nvim/session'
 
 
@@ -31,12 +30,15 @@ function! StartifyEntryFormat()
     endfunction
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
+            \ { 'w': '/Users/sindongboy/Dropbox/Documents/workspace' },
+            \ { 'm': '/Users/sindongboy/Dropbox/Documents/workspace/music-recsys' },
+            \ { 'v': '/Users/sindongboy/Dropbox/Documents/workspace/movie-recsys' },
+            \ { 'd': '/Users/sindongboy/Dropbox/Documents/workspace/data' },
+            \ { 'l': '/Users/sindongboy/Dropbox/Documents/workspace/logs' },
             \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'z': '~/.zshrc' },
-            \ '~/Blog',
-            \ '~/Code',
-            \ '~/Pics',
+            \ { 'p': '~/.config/nvim/vim-plug/plugins.vim' },
+            \ '~/.bash_profile',
             \ ]
 
-let g:startify_enable_special = 0
+let g:startify_enable_special = 1
+let g:startify_files_number        = 10

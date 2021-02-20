@@ -38,6 +38,8 @@ else
   source $HOME/.config/nvim/plug-config/coc/coc.vim
   source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
   source $HOME/.config/nvim/plug-config/easymotion.vim
+  source $HOME/.config/nvim/plug-config/ripple.vim
+  source $HOME/.config/nvim/plug-config/minimap.vim
   source $HOME/.config/nvim/plug-config/goyo.vim
   source $HOME/.config/nvim/plug-config/vim-rooter.vim
   source $HOME/.config/nvim/plug-config/start-screen.vim

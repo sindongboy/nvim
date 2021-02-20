@@ -30,10 +30,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'machakann/vim-highlightedyank'
   else
 
-    " vim REPL
-    Plug 'urbainvaes/vim-ripple'
-    " Yank Highlight
-    Plug 'machakann/vim-highlightedyank'
     " Easymotion
     Plug 'easymotion/vim-easymotion'
     " Surround
@@ -141,7 +137,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'nvim-treesitter/nvim-treesitter-textobjects'
     " Plug 'romgrk/nvim-treesitter-context'
     " Minimap
-    Plug 'wfxr/minimap.vim'
+    " Plug 'wfxr/minimap.vim'
     " jsx syntax support
     " Typescript syntax
     " Plug 'HerringtonDarkholme/yats.vim'
